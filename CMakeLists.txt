@@ -12,7 +12,6 @@ pico_sdk_init()
 
 add_executable(pico_interval_interrupt
   pico_interval_interrupt.c
-  lsm9ds1_reg.c
 )
 target_link_libraries(pico_interval_interrupt hardware_spi pico_stdlib)
 
